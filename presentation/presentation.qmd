@@ -52,9 +52,9 @@ fi
 
 ::: {.content-visible when-format="revealjs"}
 
-## Follow Along {#sec-follow-along}
+## Follow Along! {#sec-follow-along}
 
-- See the link to presentation handout on Tech Summit Website!: [www4.gvsu.edu/gvtechsummit](www4.gvsu.edu/gvtechsummit)
+See the link to presentation handout on Tech Summit Website!: [www4.gvsu.edu/gvtechsummit](www4.gvsu.edu/gvtechsummit)
 
 ![](./imgs/frame.png)
 
@@ -62,32 +62,34 @@ fi
 
 ## Disclosures and Disclaimers {#sec-disclosures}
 
+- No AI-based tools have been used in the creation and writing of this
+presentation
+
 - I have no disclosures or conflicts-of-interests related to this presentation
+or the software described in it
 
 - I am not a software engineer, computer scientist, or other technology-oriented
-professional by training - but am an enthusiast and hobbyist
+professional by training - but I am an enthusiast, hobbyist, and advocate!
 
 ## Learning Objectives {#sec-learning-objs}
 
-- Appreciate *why* we, and our students, should pay attention to how software is
-published and priced (Sections: [Motivation] and [Purpose])
+- Listeners should appreciate *why* we, and our students, should pay attention
+to how software is published and priced (Sections: [Motivation] and [Purpose])
 
-- Understand the vocabulary used to describe pricing models and source code
-availability in software (Section: [Vocabulary of Software Availability and
-Pricing])
+- Listeners should understand the vocabulary used to describe pricing models and
+source code availability in software (Section: [Vocabulary of Software
+Availability and Pricing])
 
-- Be able to identify reasonable open-source alternatives to popular and
-proprietary tools (Section: [How to Find Alternative and Open-source Tools])
+- Listeners should be able to identify reasonable open-source alternatives to
+popular and proprietary tools used in their area of work (Section: [How to Find
+Alternative and Open-source Tools])
 
-- Learn about some practical implementation examples to bring more diverse
-software to students in class (Section: [Examples of Integration])
+- Listeners should learn about some practical implementation examples to bring
+more diverse software to students in class (Section: [Examples of Integration])
 
-- Recognize both the advantages and disadvantages of adopting open-source
-alternatives into instruction (Section: Throughout [Examples of Integration])
-
-- Explore the ways in which exposure to different tools and methods may help
-produce more technology-literate students (Section: [Connection to Tech
-Literacy])
+- Listeners should recognize both the advantages and disadvantages of adopting
+open-source alternatives into instruction (Section: Throughout [Examples of
+Integration])
 
 ## Motivation {#sec-motivation}
 
@@ -98,7 +100,7 @@ Literacy])
   - Software is **expensive** - and keeps getting more so!
 
 - I want my students able to responsibly navigate these "Evil Es" during and
-after college, and not feel lost
+after college, and not feel lost when they encounter new technology
 
 ## Purpose {#sec-purpose}
 
@@ -112,8 +114,9 @@ after college, and not feel lost
   tools
   - Show students how to build their portfolio and skill set without incurring
   additional financial burden
-  - Make sure that college education does not rely upon the solvency of
-  software businesses and startups
+  - Make sure that college education does not rely upon the solvency of software
+  businesses and startups - students should leave with the flexibility necessary
+  to outlast individual products!
 
 {{< important "This is **not** an attempt to insist upon **only** using open-source software" >}}
 
@@ -121,42 +124,50 @@ after college, and not feel lost
 
 ## Basic Software Terms {#sec-basic-software-terms}
 
+- **Developer(s):** The creator(s) and maintainer(s) of a certain piece of
+software, may be a somewhat unorganized group of like-minded people or a
+centralized corporation
 - **End User:** A person who uses a certain piece of software for personal or
 business use, i.e., You and I
-- **License:** some document or text shared with software, written by the
-creator, that dictates how a certain software, and its source code, can or
+- **License:** Some document or text shared with software, written by the
+developer(s), that dictates how a certain software, and its source code, can or
 cannot be used, modified, and shared
-  - When used correctly, this is legally binding and ignoring licensee terms can
+  - When used correctly, this is legally binding and ignoring license terms can
   be grounds for lawsuits
   - E.g., [MIT License](https://opensource.org/license/mit),
   [CC](https://creativecommons.org/share-your-work/cclicenses/), specific
   licenses written for proprietary software
-- **End User License Agreement (EULA):** An agreement signed by a user of a
-specific software that recognizes and agrees to the software license terms, and
-the penalties associated with violating the license
+- **End User License Agreement (EULA):** An agreement signed by a end user of a
+specific software that recognizes and agrees to the software license terms set
+by the developer, and the penalties associated with violating the license
   - I.e., the long set of documents and text we agree to when we sign up for a
   new service
 - **Source code:** the actual code that underlies a certain software or program
   - This is *not* necessarily the files that "ship" with the software
-  - This is used to build and modify the program
+  - This is used to build and modify the program, and in "closed-source"
+  software, is only available to the developer(s)
 
 ## Terms of Ownership and Use {#sec-terms-of-ownership-and-use}
 
-- **Non-free:** Software that is priced and/or restricted with limited access
-to source code. Contrary to the name, it does not necessarily have a cost to
-use
-  - **Proprietary:** A type of non-free software; Something that is owned by
-  an entity via copyright and intellectual property laws, and users are not
-  allowed to make limitless modification to the program or share without
-  authorization
-    - E.g., Microsoft 365 (Word, Powerpoint, etc.) - owned by Microsoft,
-    cannot be modified or shared without permission from copyright holder
-  - **Software as a Service (SaaS):** Proprietary, non-free software priced as
-  a continuous ongoing subscription model, rather than charging a one-time
-  access fee
-    - E.g., Adobe Creative Cloud, Anything that says: "Contact our Sales Team"
+### Non-free Software {#sec-non-free .fragment}
 
-- **Free and open source (FOSS):** Software that is *intentionally* not priced
+- Software that is restricted with limited or no access to source
+code. Contrary to the name, it does not necessarily have a cost to use
+  - **Proprietary:** A type of non-free software; Something that is owned by
+  developer(s) via copyright and intellectual property laws, and end users are
+  not allowed to make limitless modification to the program or share without
+  authorization
+    - E.g., Microsoft 365 (Word, Powerpoint, etc.) - owned by Microsoft, cannot
+    be modified or shared without permission from copyright holder
+  - **Software as a Service (SaaS):** Proprietary, non-free software priced as a
+  continuous ongoing subscription model, rather than charging a one-time access
+  fee
+    - E.g., Adobe Creative Cloud, likely anything that says: "Contact our Sales
+    Team"
+
+### Free and Open Source Software (FOSS) {#sec-foss .fragment}
+
+- Software that is *intentionally* not priced
 and able to be adopted, modified, shared, and used without cost - and only
 some restrictions per the specific license of the software
   - The "open source" part of this, refers to the source code being open and
@@ -176,9 +187,9 @@ options!" >}}
 
 ## Strategy {#sec-strategy}
 
-1. Identify which programs and software are "industry-standard" in your field
-   and which programs you would normally suggest/have students use for
-assignments in the classes you instruct
+1. Identify which programs and software are "industry-standard" in your field of
+   study/teaching and which programs you would normally suggest/have students
+use for assignments in the classes you instruct
 
 2. For each of those identified programs, list what *core* features they have
    that your students should have in any alternative program, i.e., what parts
@@ -196,12 +207,15 @@ proprietary program name here]"
 also be useful to check!
 
 4. Try out alternatives and see if they match your needs - you want to make sure
-   that it works well enough so you would feel comfortable!
+   that it works well enough so you would feel comfortable with your students
+using it!
 
 ## Things to Look for in Software {#sec-things-to-look-for}
 
 - Here is some general guidance of things to look when considering whether
 software seems to be legit and well-supported
+- Use the [Vocabulary of Software Availability and Pricing] to help cut through
+the marketing, jargon, and fluff!
 
 ### Green Flags {#sec-green-flags .fragment}
 
@@ -214,7 +228,7 @@ software seems to be legit and well-supported
 ### Red Flags {#sec-red-flags .fragment}
 
 - Prominent advertising for subscription tiers, "membership", or overbearing
-donation suggestions, "Contact sales"
+donation suggestions, "Contact sales", "free trial"
 - Difficult to find source code
 - Un-maintained, out-of-date code repositories
 - Low or nonexistent community discussion or involvement
@@ -232,6 +246,7 @@ preparation $\rightarrow$ [LibreOffice](https://www.libreoffice.org/),
 [Gitea](https://about.gitea.com/)
 
 - Chatgpt / Gemini / Other AI chats for generic LLM use $\rightarrow$ [Ollama](https://ollama.com/)
+  - I greatly prefer this option for privacy reasons as well
 
 - SPSS / SAS / STATA for statistics $\rightarrow$ [R](https://www.r-project.org/), [Python](https://www.python.org/)
 
@@ -239,9 +254,19 @@ preparation $\rightarrow$ [LibreOffice](https://www.libreoffice.org/),
 [GIMP](https://www.gimp.org/), [Inkscape](https://inkscape.org/)
 
 - Panopto for video / screen recording $\rightarrow$ [Open Broadcaster Software
-(OBS)](https://obsproject.com/) - I use this for recording all of my lectures!
+(OBS)](https://obsproject.com/)
+  - I use this for recording all of my lectures
+
+{{< important "Trying to find a real, legit, useful, and feature-rich
+alternative can be a minefield! Take your time to parse out the best solutions,
+but there isn't always one!" >}}
 
 # Examples of Integration {#sec-examples-of-integration}
+
+## General Advice {#sec-general-advice}
+
+- Take the below with a grain-of-salt; you may have to do a little or a lot of
+modifications to these to make them make sense for your classes
 
 ## Option 1: A Longer Assignment with a Choice of Two (or More) Ways {#sec-two-ways}
 
@@ -313,9 +338,10 @@ emphasize what purpose doing the same assignment twice serves*
 
 ### Presenter Example {#sec-presenter-example-opt-2 .fragment}
 
-- Students need to record a short introduction (to themselves) video in a class in which they
-will have to do multiple recording presentations. They are asked to record once
-using Panopto (Proprietary) and Open Broadcasting Software (OBS; FOSS)
+- Students need to record a short introduction (to themselves) video in a class
+in which they will have to do multiple recording presentations. They are asked
+to record once using Panopto (Proprietary) and Open Broadcasting Software (OBS;
+FOSS)
 
 - For both options I:
   - Provide a video that shows navigating and recording a video with the
@@ -353,10 +379,13 @@ E.g., how to crop a photo, how to find a mean, etc.
 
 3. Encourage students to explore a similar, equivalent open-source program and
    determine how to accomplish those same tasks - encourage use of Google,
-ChatGPT, and documentation to find. Have them take screenshots showing them
-"finding" the features in the open source program.
+ChatGPT (within reason), and documentation to find. Have them take screenshots
+showing them "finding" the features in the open source program.
 
 4. (Optional) Ask for evidence of a simple demonstration of those found features
+
+5. (Optional) Have them find a feature present in one software, but NOT the
+   other
 
 ### Presenter Example {#sec-presenter-example-opt-3 .fragment}
 
@@ -377,6 +406,8 @@ directly provided by instructor
 - Stresses problem-solving, savvy searching, and application of solutions
 - Uses their established competence in one program to help connect to a new
 program
+- With optional step 5, may help students understand relative limitations of
+certain software choices
 
 ### Drawbacks {#sec-opt-3-drawbacks .fragment}
 
@@ -390,24 +421,21 @@ part to be unsupported by the instructor (even if that is intentional!)
 {{< important "There are several routes to integration of open-source tools, but
 all focus on flexibility and agency!" >}}
 
-# Connection to Tech Literacy {#sec-conn-tech-lit}
-
-{{< important "There are several routes to integration of open-source tools, but
-all focus on flexibility and agency!" >}}
-
 # Conclusion {#sec-conclusion}
 
 ## Recap {#sec-recap}
 
-- There are many reasons we should be conscious around what software we use and
-the growing cost and reliance
+- There are many reasons we should be conscious around what software we use,
+demonstrate, and require in instruction, especially with the growing cost and
+monopoly certain tools
 
 - FOSS software *can*, and sometimes *should*, be considered as an alternative
-when training students for practical work
+when training students for practical work - it may also offer an opportunity to
+practice soft problem-solving and adaptation skills vital for the workplace
 
 - *Exposure and experience is key*: we don't necessarily need to persuade
 students of a certain method of using software, so much as we should help them
-explore their options
+explore their options, for both now, and in the future
 
 ## Parting Message {#sec-parting-msg}
 
@@ -418,16 +446,23 @@ presentation to explore the complexity around adopting more open-source software
 like one of my [Examples of Integration], in your classrooms
 
 - If you are administrative or support staff, make sure that instructors are
-aware of alternative options to the most popular tools. IT may even be able to
-help organize hosting of certain desired tools by faculty.
+aware of alternative options to the most popular tools.
 
 - There is more to consider that we didn't even cover today, like possible
-transparency, reproducability, and security benefits. Consider looking into
-these topics further!
+transparency, reproducability, and security benefits that may come with adoption
+of open-source software. Consider looking into these topics further!
 
-- Encourage students to engage fruitfully with technology not purely as a
-means-to-an-end, but as a **conscious choice** - share with them some of the
-ideas present in this presentation!
+- Encourage students to engage fruitfully with software not purely as a
+means-to-an-end, but as a **conscious and adaptive choice** - share with them
+some ideas present in this presentation!
+
+## Follow-Up {#sec-talk-with-me}
+
+- Thanks for joining me today!
+
+- If you want to stay in-touch and talk more, send me an email at
+[QuagliaQ@gvsu.edu](mailto:QuagliaQ@gvsu.edu), scan the QR below, or catch me
+after the presentation!
 
 {{< pagebreak >}}
 
