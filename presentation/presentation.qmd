@@ -52,15 +52,72 @@ fi
 
 ## Follow Along {#sec-follow-along}
 
-## Disclosures {#sec-disclosures}
+- See the link to presentation handout on Tech Summit Website! <www4.gvsu.edu/gvtechsummit>
 
-I have no disclosures or conflicts-of-interests related to this presentation
+## Disclosures and Disclaimers {#sec-disclosures}
+
+- I have no disclosures or conflicts-of-interests related to this presentation
+
+- I am not a software engineer, computer scientist, or other technology-oriented
+professional by training - but am an enthusiast and hobbyist
 
 ## Learning Objectives {#sec-learning-objs}
 
+- Appreciate *why* we should pay attention to how software is published and
+priced (Sections: [Motivation] and [Purpose])
+
+- Understand the vocabulary used to describe pricing models and source code
+availability in software (Section: [Vocabulary of Software Availability and
+Pricing])
+
+- Appreciate both the advantages and disadvantages of adopting open-source
+alternatives into instruction (Section: [Advantages and Challenges])
+
+- Consider the ways in which exposure to different tools and methods produces
+more technology-literate students (Section: [])
+
+- Learn about some methods to bring more diverse software to students (Section:
+[Examples of Integration])
+
 ## Motivation {#sec-motivation}
 
+- The four "Evil" Es of software
+  - Software is everywhere - it's always all around us
+  - Software is essential - it's a common requirement of navigating the world
+  - Software is elaborate - but it doesn't look it!
+  - Software is expensive - and keeps getting more so!
+
+- I want my students able to navigate these "Evil Es" during and after college,
+and not feel lost
+
 ## Purpose {#sec-purpose}
+
+- Following the liberal arts mission of creating well-(tech)-rounded students
+  - Exposing students to more alternative tools
+  - Seeing the similarities, differences, and quirks of each tool
+  - When they encounter new software they can adapt easier
+
+- Supporting projects and software that are free in a time of increasing prices
+  - Push back against reliance upon subscription-based tools
+  - Show students how to build their portfolio and skill set without incurring
+  additional financial burden
+
+-
+
+# Vocabulary of Software Availability and Pricing {#sec-avail}
+
+{{< important "There's a lot of different ways to describe software price models,
+be discerning when looking at options!" >}}
+
+# Examples of Integration {#sec-examples-of-integration}
+
+{{< important "There are several routes to integration of open-source tools, but
+all focus on flexibility and agency!" >}}
+
+# Advantages and Challenges {#sec-adv}
+
+{{< important "Introducing open-source tools brings benefits and drawbacks, but
+the good outweighs the bad!" >}}
 
 {{< pagebreak >}}
 
