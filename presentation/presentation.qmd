@@ -76,11 +76,14 @@ published and priced (Sections: [Motivation] and [Purpose])
 availability in software (Section: [Vocabulary of Software Availability and
 Pricing])
 
-- Learn about some practical implementation to bring more diverse software to
-students in class (Section: [Examples of Integration])
+- Be able to identify reasonable open-source alternatives to popular and
+proprietary tools (Section: [How to Find Alternative and Open-source Tools])
+
+- Learn about some practical implementation examples to bring more diverse
+software to students in class (Section: [Examples of Integration])
 
 - Recognize both the advantages and disadvantages of adopting open-source
-alternatives into instruction (Section: [Advantages and Challenges])
+alternatives into instruction (Section: Throughout [Examples of Integration])
 
 - Explore the ways in which exposure to different tools and methods may help
 produce more technology-literate students (Section: [Connection to Tech
@@ -165,24 +168,227 @@ some restrictions per the specific license of the software
 - For the purpose of this presentation, I'll be prioritizing talking about
 options for using and embracing **FOSS** software
 
-{{< important "There's a lot of different ways to describe software price models,
-so be discerning when looking at options!" >}}
+{{< important "There's a lot of different ways to describe software price
+models, and sometimes a lot of grey area too - so be discerning when looking at
+options!" >}}
+
+# How to Find Alternative and Open-source Tools {#sec-how-to-find}
+
+## Strategy {#sec-strategy}
+
+1. Identify which programs and software are "industry-standard" in your field
+   and which programs you would normally suggest/have students use for
+assignments in the classes you instruct
+
+2. For each of those identified programs, list what *core* features they have
+   that your students should have in any alternative program, i.e., what parts
+of those programs are necessary to achieve the desired learning objectives and
+complete assignments
+
+3. Use these websites to help find similar programs to those you already use:
+
+- [AlternativeTo](https://alternativeto.net/)
+- [SourceForge](https://sourceforge.net/directory/linux/)
+- [Google](google.com) - search "Open-source alternative to [insert
+proprietary program name here]"
+- AI chats and tools can help too - just be wary of hallucinations!
+- Surprisingly, internet forums like [Reddit](https://www.reddit.com/) can
+also be useful to check!
+
+4. Try out alternatives and see if they match your needs - you want to make sure
+   that it works well enough so you would feel comfortable!
+
+## Things to Look for in Software {#sec-things-to-look-for}
+
+- Here is some general guidance of things to look when considering whether
+software seems to be legit and well-supported
+
+### Green Flags {#sec-green-flags .fragment}
+
+- Supported by community involvement/discussion and code contributions
+- Recent activity, updates, and contributions
+- Source code publicly available and easily find-able
+- Supported by voluntary donations ONLY, with no features gated by default
+- Backed by non-profit
+
+### Red Flags {#sec-red-flags .fragment}
+
+- Prominent advertising for subscription tiers, "membership", or overbearing
+donation suggestions, "Contact sales"
+- Difficult to find source code
+- Un-maintained, out-of-date code repositories
+- Low or nonexistent community discussion or involvement
+
+## Common Alternative Examples {#sec-common-examples}
+
+- Microsoft / Google Suite for *offline* document, sheets, and slideshow
+preparation $\rightarrow$ [LibreOffice](https://www.libreoffice.org/),
+[Apache OpenOffice](https://www.openoffice.org/)
+  - For this presentation, I'm using [RevealJS](https://revealjs.com/), written
+  with [Quarto](https://quarto.org/), as an alternative to using MS Powerpoint
+
+- Github for code sharing, version control, other code actions $\rightarrow$
+[Codeberg](https://codeberg.org/), [Gitlab](https://about.gitlab.com/),
+[Gitea](https://about.gitea.com/)
+
+- Chatgpt / Gemini / Other AI chats for generic LLM use $\rightarrow$ [Ollama](https://ollama.com/)
+
+- SPSS / SAS / STATA for statistics $\rightarrow$ [R](https://www.r-project.org/), [Python](https://www.python.org/)
+
+- *Some* Adobe programs like Photoshop and Illustrator $\rightarrow$
+[GIMP](https://www.gimp.org/), [Inkscape](https://inkscape.org/)
+
+- Panopto for video / screen recording $\rightarrow$ [Open Broadcaster Software
+(OBS)](https://obsproject.com/) - I use this for recording all of my lectures!
 
 # Examples of Integration {#sec-examples-of-integration}
 
+## Option 1: A Longer Assignment with a Choice of Two (or More) Ways {#sec-two-ways}
+
+### Steps {#sec-steps-opt-1 .fragment}
+
+1. Think of an assignment you already give to your class in which you
+   recommend/suggest/require a proprietary software
+
+2. Rewrite assignment instruction to allow for use of the proprietary *or* the
+   open-source software alternative (make sure you vet the open source
+alternative first and make sure it is reasonably close in difficulty!), but keep
+outcome expectations / grading standards roughly the same
+
+3. If one of the choices presents a greater learner curve or challenge, consider
+   offering some *marginal* extra points for use of the more difficult tool
+
+### Presenter Example {#sec-presenter-example-opt-1 .fragment}
+
+- I have students run a brief, practical statistical analysis using SPSS
+(proprietary) *or* R (FOSS).
+
+- For both options I:
+  - Provide a video and written guide on how to perform the essential skills for
+  the assignment
+  - Demonstrate equivalency of outcomes between the two programs, e.g., I show a
+  t-test result is the same between both of the programs
+  - It's important that you make it clear that both pieces of software offer a
+  reasonable way to accomplish the same task
+
+- For either option, students must:
+  - Show output sceenshot from the program of their choice
+  - Produce the same outcome in quality of work, regardless of program choice
+
+- Depending on complexity of assignment, I may offer a small amount of extra
+points for use of R, due to it generally requiring a higher learning curve.
+
+### Benefits {#sec-opt-1-benefits .fragment}
+
+- Gives agency for students to choose which path they would like to take, allows
+for students to pursue the option they feel is more valuable / attainable
+- Ideally, students demonstrate same skills and accomplish same learning
+outcomes, regardless of chosen option
+- Demonstrates instructor ability / competence, show your own ability to
+accomplish the work, model problem solving behavior across multiple modalities
+
+### Drawbacks {#sec-opt-1-drawbacks .fragment}
+
+- Additional work for instructor to prepare guidance and instructions for two
+different programs
+- Students may chose the perceived "easier" option - that is why it is important
+to try and find equivalent options
+- Students may switch their software choice halfway through, if they feel they
+made the "wrong" choice, doubling the amount of time the assignment takes
+
+## Option 2: A Shorter Assignment, Both Ways {#sec-both-ways}
+
+### Steps {#sec-steps-opt-2 .fragment}
+
+1. Think of an assignment you already give to your class in which you
+   recommend/suggest/require a proprietary software
+
+2. Rewrite *and shorten* assignment instruction to allow for use of the
+   proprietary *and* the open-source software alternative. *Very important to
+emphasize what purpose doing the same assignment twice serves*
+
+3. Have students progress through the same assignment twice, demonstrating the
+   same skills across both software platforms, and ensuring they get equivalent
+   results across the two
+
+### Presenter Example {#sec-presenter-example-opt-2 .fragment}
+
+- Students need to record a short introduction (to themselves) video in a class in which they
+will have to do multiple recording presentations. They are asked to record once
+using Panopto (Proprietary) and Open Broadcasting Software (OBS; FOSS)
+
+- For both options I:
+  - Provide a video that shows navigating and recording a video with the
+  selected program
+  - Show how both produce the same looking and sounding video, but require
+  different steps to configure and set up
+
+- For both options, students must:
+  - Record an equivalent video, producing the same outcome in quality of work,
+  regardless of program choice
+
+### Benefits {#sec-opt-2-benefits .fragment}
+
+- Strongly reinforces the idea of different method/software, same outcome
+- Helps students appreciate learning objectives as being accomplish-able through
+multiple ways, avoiding a "one-track" mindset
+
+### Drawbacks {#sec-opt-2-drawbacks .fragment}
+
+- May easily be grating to students if assignment is too long and feels like too
+much work to do twice
+- Students may not see value in multiple method approach unless this is
+explicitly explained when introducing assignment
+
+## Option 3: Scavenger Hunt for Equivalent Features {#sec-scav-hunt}
+
+### Steps {#sec-steps-opt-3 .fragment}
+
+1. This works best if used later in the course after students have already
+   established reasonable competence with a proprietary program
+
+1. Think of a set of *simple* practices / skills that exist as part of the
+   proprietary software program that your students *already know how to do.*
+E.g., how to crop a photo, how to find a mean, etc.
+
+3. Encourage students to explore a similar, equivalent open-source program and
+   determine how to accomplish those same tasks - encourage use of Google,
+ChatGPT, and documentation to find. Have them take screenshots showing them
+"finding" the features in the open source program.
+
+4. (Optional) Ask for evidence of a simple demonstration of those found features
+
+### Presenter Example {#sec-presenter-example-opt-3 .fragment}
+
+- In a formula-heavy class, students are primarily use to hand-writing or using
+formula functions built-into MS Word or Google Docs, but I would like them to
+practice writing formulas in \LaTeX
+
+- I request that students find the correct \LaTeX notation for writing common
+formula notation like superscripts, subscripts, fractions, summations, etc.
+
+- I have them send me links to the resources they used and write out some simple
+examples of formulas in \LaTeX , using the advice from those resources
+
+### Benefits {#sec-opt-3-benefits .fragment}
+
+- Encourages autonomy in students to find and use resources, even when not
+directly provided by instructor
+- Stresses problem-solving, savvy searching, and application of solutions
+- Uses their established competence in one program to help connect to a new
+program
+
+### Drawbacks {#sec-opt-3-drawbacks .fragment}
+
+- Students *must* feel competent in completing these practices already,
+otherwise may feel like they are trying to learn tech and concepts at the same
+time, which may be overwhelming
+- Depending on student background, the instructor may have to provide some hints
+as to where to look to find solutions - some students may find the "scavenging"
+part to be unsupported by the instructor (even if that is intentional!)
+
 {{< important "There are several routes to integration of open-source tools, but
 all focus on flexibility and agency!" >}}
-
-# Advantages and Challenges {#sec-adv}
-
-## Benefits {#sec-benefits}
-
--
-
-## Drawbacks {#sec-drawbacks}
-
-{{< important "Introducing open-source tools brings benefits and drawbacks, but
-the good outweighs the bad!" >}}
 
 # Connection to Tech Literacy {#sec-conn-tech-lit}
 
@@ -213,7 +419,11 @@ like one of my [Examples of Integration], in your classrooms
 
 - If you are administrative or support staff, make sure that instructors are
 aware of alternative options to the most popular tools. IT may even be able to
-help organize hosting of certain desired tools by faculty
+help organize hosting of certain desired tools by faculty.
+
+- There is more to consider that we didn't even cover today, like possible
+transparency, reproducability, and security benefits. Consider looking into
+these topics further!
 
 - Encourage students to engage fruitfully with technology not purely as a
 means-to-an-end, but as a **conscious choice** - share with them some of the
