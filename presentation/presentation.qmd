@@ -167,9 +167,9 @@ code. Contrary to the name, it does not necessarily have a cost to use
 
 ### Free and Open Source Software (FOSS) {#sec-foss .fragment}
 
-- Software that is *intentionally* not priced
-and able to be adopted, modified, shared, and used without cost - and only
-some restrictions per the specific license of the software
+- Software that is *intentionally* not priced, and able to be adopted, modified,
+shared, and used without cost - with only some restrictions per the specific
+license of the software
   - The "open source" part of this, refers to the source code being open and
   available, i.e., not hidden from the public
   - A subtype of this is **Free, libre, and open source (FLOSS) or copyleft**,
@@ -235,6 +235,9 @@ donation suggestions, "Contact sales", "free trial"
 
 ## Common Alternative Examples {#sec-common-examples}
 
+- I don't guarantee that the following suggestions are all of the same skill
+level, some may require some time investment to re-learn
+
 - Microsoft / Google Suite for *offline* document, sheets, and slideshow
 preparation $\rightarrow$ [LibreOffice](https://www.libreoffice.org/),
 [Apache OpenOffice](https://www.openoffice.org/)
@@ -267,6 +270,10 @@ but there isn't always one!" >}}
 
 - Take the below with a grain-of-salt; you may have to do a little or a lot of
 modifications to these to make them make sense for your classes
+
+- Realistically, not all classes may benefit from addition of software
+related/assisted instruction - add in relevant activities as appropriate to your
+learning objectives
 
 ## Option 1: A Longer Assignment with a Choice of Two (or More) Ways {#sec-two-ways}
 
@@ -319,7 +326,8 @@ different programs
 - Students may chose the perceived "easier" option - that is why it is important
 to try and find equivalent options
 - Students may switch their software choice halfway through, if they feel they
-made the "wrong" choice, doubling the amount of time the assignment takes
+made the "wrong" choice, doubling the amount of time the assignment takes and
+causing frustration
 
 ## Option 2: A Shorter Assignment, Both Ways {#sec-both-ways}
 
@@ -330,7 +338,7 @@ made the "wrong" choice, doubling the amount of time the assignment takes
 
 2. Rewrite *and shorten* assignment instruction to allow for use of the
    proprietary *and* the open-source software alternative. *Very important to
-emphasize what purpose doing the same assignment twice serves*
+emphasize what purpose doing the same assignment twice serves.*
 
 3. Have students progress through the same assignment twice, demonstrating the
    same skills across both software platforms, and ensuring they get equivalent
@@ -361,12 +369,12 @@ multiple ways, avoiding a "one-track" mindset
 
 ### Drawbacks {#sec-opt-2-drawbacks .fragment}
 
-- May easily be grating to students if assignment is too long and feels like too
-much work to do twice
+- May easily be grating and boring to students if assignment is too long and
+feels like too much work to do twice
 - Students may not see value in multiple method approach unless this is
 explicitly explained when introducing assignment
 
-## Option 3: Scavenger Hunt for Equivalent Features {#sec-scav-hunt}
+## Option 3: Scavenger Hunt for Equivalent (or Different) Features {#sec-scav-hunt}
 
 ### Steps {#sec-steps-opt-3 .fragment}
 
@@ -439,11 +447,12 @@ explore their options, for both now, and in the future
 
 ## Parting Message {#sec-parting-msg}
 
-- Continue using the resources, links, and [References] provided throughout this
+- Continue using the resources and links provided throughout this
 presentation to explore the complexity around adopting more open-source software
 
 - If you are an instructor: consider trialing an adoption of open-source tools,
-like one of my [Examples of Integration], in your classrooms
+like one of my [Examples of Integration], in your classrooms or, maybe even in
+your own workflow
 
 - If you are administrative or support staff, make sure that instructors are
 aware of alternative options to the most popular tools.
@@ -461,7 +470,7 @@ some ideas present in this presentation!
 - Thanks for joining me today!
 
 - If you want to stay in-touch and talk more, send me an email at
-[QuagliaQ@gvsu.edu](mailto:QuagliaQ@gvsu.edu), scan the QR below, or catch me
+[QuagliaQ@gvsu.edu](mailto:QuagliaQ@gvsu.edu), or catch me
 after the presentation!
 
 {{< pagebreak >}}
