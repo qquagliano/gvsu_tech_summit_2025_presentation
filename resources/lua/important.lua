@@ -14,14 +14,14 @@ return {
 		if quarto.doc.is_format("revealjs") then
 			block = pandoc.RawBlock(
 				"html",
-				"<ul><li class='fragment highlight-current-custom'><b>Discuss: " .. text .. "</b></ul></li>"
+				"<ul><li class='fragment highlight-current-custom'><b>Important: " .. text .. "</b></ul></li>"
 			)
 		end
 
 		if quarto.doc.is_format("html") then
 			block = pandoc.RawBlock(
 				"html",
-				"<ul><li class='fragment highlight-current-custom'><b>Discuss: " .. text .. "</b></ul></li>"
+				"<ul><li class='fragment highlight-current-custom'><b>Important: " .. text .. "</b></ul></li>"
 			)
 		end
 

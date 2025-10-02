@@ -50,9 +50,15 @@ fi
 
 # Introduction {#sec-intro}
 
+::: {.content-visible when-format="revealjs"}
+
 ## Follow Along {#sec-follow-along}
 
 - See the link to presentation handout on Tech Summit Website!: [www4.gvsu.edu/gvtechsummit](www4.gvsu.edu/gvtechsummit)
+
+![](./imgs/frame.png)
+
+:::
 
 ## Disclosures and Disclaimers {#sec-disclosures}
 
@@ -63,48 +69,101 @@ professional by training - but am an enthusiast and hobbyist
 
 ## Learning Objectives {#sec-learning-objs}
 
-- Appreciate *why* we should pay attention to how software is published and
-priced (Sections: [Motivation] and [Purpose])
+- Appreciate *why* we, and our students, should pay attention to how software is
+published and priced (Sections: [Motivation] and [Purpose])
 
 - Understand the vocabulary used to describe pricing models and source code
 availability in software (Section: [Vocabulary of Software Availability and
 Pricing])
 
-- Appreciate both the advantages and disadvantages of adopting open-source
+- Learn about some practical implementation to bring more diverse software to
+students in class (Section: [Examples of Integration])
+
+- Recognize both the advantages and disadvantages of adopting open-source
 alternatives into instruction (Section: [Advantages and Challenges])
 
-- Consider the ways in which exposure to different tools and methods produces
-more technology-literate students (Section: [Connection to Tech Literacy])
-
-- Learn about some methods to bring more diverse software to students (Section:
-[Examples of Integration])
+- Explore the ways in which exposure to different tools and methods may help
+produce more technology-literate students (Section: [Connection to Tech
+Literacy])
 
 ## Motivation {#sec-motivation}
 
 - The four (hyperbolic) "Evil" Es of software
-  - Software is everywhere - it's always all around us
-  - Software is essential - it's a common requirement of navigating the world
-  - Software is elaborate - but it doesn't look it!
-  - Software is expensive - and keeps getting more so!
+  - Software is **everywhere** - it's always all around us
+  - Software is **essential** - it's a common requirement of navigating the world
+  - Software is **elaborate** - but it doesn't look it!
+  - Software is **expensive** - and keeps getting more so!
 
-- I want my students able to navigate these "Evil Es" during and after college,
-and not feel lost
+- I want my students able to responsibly navigate these "Evil Es" during and
+after college, and not feel lost
 
 ## Purpose {#sec-purpose}
 
-- Follow the liberal arts mission of creating well-(tech)-rounded students
+- Support the liberal arts mission of creating well-(tech)-rounded students
   - Expose students to more alternative tools
   - Help students see the similarities, differences, and quirks of each tool
   - Ensure that when students encounter new software they can adapt easier
 
 - Support projects and software that are free in a time of increasing prices
-  - Push back against reliance upon subscription-based tools
+  - Push back against reliance upon subscription-based and more "locked-down"
+  tools
   - Show students how to build their portfolio and skill set without incurring
   additional financial burden
+  - Make sure that college education does not rely upon the solvency of
+  software businesses and startups
 
-- This is **not** an attempt to insist upon **only** using open-source software
+{{< important "This is **not** an attempt to insist upon **only** using open-source software" >}}
 
 # Vocabulary of Software Availability and Pricing {#sec-avail}
+
+## Basic Software Terms {#sec-basic-software-terms}
+
+- **End User:** A person who uses a certain piece of software for personal or
+business use, i.e., You and I
+- **License:** some document or text shared with software, written by the
+creator, that dictates how a certain software, and its source code, can or
+cannot be used, modified, and shared
+  - When used correctly, this is legally binding and ignoring licensee terms can
+  be grounds for lawsuits
+  - E.g., [MIT License](https://opensource.org/license/mit),
+  [CC](https://creativecommons.org/share-your-work/cclicenses/), specific
+  licenses written for proprietary software
+- **End User License Agreement (EULA):** An agreement signed by a user of a
+specific software that recognizes and agrees to the software license terms, and
+the penalties associated with violating the license
+  - I.e., the long set of documents and text we agree to when we sign up for a
+  new service
+- **Source code:** the actual code that underlies a certain software or program
+  - This is *not* necessarily the files that "ship" with the software
+  - This is used to build and modify the program
+
+## Terms of Ownership and Use {#sec-terms-of-ownership-and-use}
+
+- **Non-free:** Software that is priced and/or restricted with limited access
+to source code. Contrary to the name, it does not necessarily have a cost to
+use
+  - **Proprietary:** A type of non-free software; Something that is owned by
+  an entity via copyright and intellectual property laws, and users are not
+  allowed to make limitless modification to the program or share without
+  authorization
+    - E.g., Microsoft 365 (Word, Powerpoint, etc.) - owned by Microsoft,
+    cannot be modified or shared without permission from copyright holder
+  - **Software as a Service (SaaS):** Proprietary, non-free software priced as
+  a continuous ongoing subscription model, rather than charging a one-time
+  access fee
+    - E.g., Adobe Creative Cloud, Anything that says: "Contact our Sales Team"
+
+- **Free and open source (FOSS):** Software that is *intentionally* not priced
+and able to be adopted, modified, shared, and used without cost - and only
+some restrictions per the specific license of the software
+  - The "open source" part of this, refers to the source code being open and
+  available, i.e., not hidden from the public
+  - A subtype of this is **Free, libre, and open source (FLOSS) or copyleft**,
+  which focuses on prohibiting the use of the software to create non-free
+  software
+
+- For the purpose of this presentation, I'll be prioritizing talking about
+options for using and embracing **FOSS** software
 
 {{< important "There's a lot of different ways to describe software price models,
 so be discerning when looking at options!" >}}
@@ -114,15 +173,50 @@ so be discerning when looking at options!" >}}
 {{< important "There are several routes to integration of open-source tools, but
 all focus on flexibility and agency!" >}}
 
+# Advantages and Challenges {#sec-adv}
+
+## Benefits {#sec-benefits}
+
+-
+
+## Drawbacks {#sec-drawbacks}
+
+{{< important "Introducing open-source tools brings benefits and drawbacks, but
+the good outweighs the bad!" >}}
+
 # Connection to Tech Literacy {#sec-conn-tech-lit}
 
 {{< important "There are several routes to integration of open-source tools, but
 all focus on flexibility and agency!" >}}
 
-# Advantages and Challenges {#sec-adv}
+# Conclusion {#sec-conclusion}
 
-{{< important "Introducing open-source tools brings benefits and drawbacks, but
-the good outweighs the bad!" >}}
+## Recap {#sec-recap}
+
+- There are many reasons we should be conscious around what software we use and
+the growing cost and reliance
+
+- FOSS software *can*, and sometimes *should*, be considered as an alternative
+when training students for practical work
+
+- *Exposure and experience is key*: we don't necessarily need to persuade
+students of a certain method of using software, so much as we should help them
+explore their options
+
+## Parting Message {#sec-parting-msg}
+
+- Continue using the resources, links, and [References] provided throughout this
+presentation to explore the complexity around adopting more open-source software
+
+- If you are an instructor: consider trialing an adoption of open-source tools,
+like one of my [Examples of Integration], in your classrooms
+
+- If you are administrative or support staff, make sure that instructors are
+aware of alternative options to the most popular tools. IT may even be able to
+help organize hosting of certain desired tools by faculty
+
+- Encourage students to engage fruitfully with technology not purely as a
+means-to-an-end, but as a **conscious choice**
 
 {{< pagebreak >}}
 

@@ -18,27 +18,69 @@
     "href": "presentation/presentation.html#sec-learning-objs",
     "title": "When and How to Introduce Students to Free and Open-Source Software",
     "section": "1.3 Learning Objectives",
-    "text": "1.3 Learning Objectives\n\nAppreciate why we should pay attention to how software is published and priced (Sections: Motivation and Purpose)\nUnderstand the vocabulary used to describe pricing models and source code availability in software (Section: Vocabulary of Software Availability and Pricing)\nAppreciate both the advantages and disadvantages of adopting open-source alternatives into instruction (Section: Advantages and Challenges)\nConsider the ways in which exposure to different tools and methods produces more technology-literate students (Section: Connection to Tech Literacy)\nLearn about some methods to bring more diverse software to students (Section: Examples of Integration)"
+    "text": "1.3 Learning Objectives\n\nAppreciate why we, and our students, should pay attention to how software is published and priced (Sections: Motivation and Purpose)\nUnderstand the vocabulary used to describe pricing models and source code availability in software (Section: Vocabulary of Software Availability and Pricing)\nLearn about some practical implementation to bring more diverse software to students in class (Section: Examples of Integration)\nRecognize both the advantages and disadvantages of adopting open-source alternatives into instruction (Section: Advantages and Challenges)\nExplore the ways in which exposure to different tools and methods may help produce more technology-literate students (Section: Connection to Tech Literacy)"
   },
   {
     "objectID": "presentation/presentation.html#sec-motivation",
     "href": "presentation/presentation.html#sec-motivation",
     "title": "When and How to Introduce Students to Free and Open-Source Software",
     "section": "1.4 Motivation",
-    "text": "1.4 Motivation\n\nThe four (hyperbolic) “Evil” Es of software\n\nSoftware is everywhere - it’s always all around us\nSoftware is essential - it’s a common requirement of navigating the world\nSoftware is elaborate - but it doesn’t look it!\nSoftware is expensive - and keeps getting more so!\n\nI want my students able to navigate these “Evil Es” during and after college, and not feel lost"
+    "text": "1.4 Motivation\n\nThe four (hyperbolic) “Evil” Es of software\n\nSoftware is everywhere - it’s always all around us\nSoftware is essential - it’s a common requirement of navigating the world\nSoftware is elaborate - but it doesn’t look it!\nSoftware is expensive - and keeps getting more so!\n\nI want my students able to responsibly navigate these “Evil Es” during and after college, and not feel lost"
   },
   {
     "objectID": "presentation/presentation.html#sec-purpose",
     "href": "presentation/presentation.html#sec-purpose",
     "title": "When and How to Introduce Students to Free and Open-Source Software",
     "section": "1.5 Purpose",
-    "text": "1.5 Purpose\n\nFollow the liberal arts mission of creating well-(tech)-rounded students\n\nExpose students to more alternative tools\nHelp students see the similarities, differences, and quirks of each tool\nEnsure that when students encounter new software they can adapt easier\n\nSupport projects and software that are free in a time of increasing prices\n\nPush back against reliance upon subscription-based tools\nShow students how to build their portfolio and skill set without incurring additional financial burden\n\nThis is not an attempt to insist upon only using open-source software"
+    "text": "1.5 Purpose\n\nSupport the liberal arts mission of creating well-(tech)-rounded students\n\nExpose students to more alternative tools\nHelp students see the similarities, differences, and quirks of each tool\nEnsure that when students encounter new software they can adapt easier\n\nSupport projects and software that are free in a time of increasing prices\n\nPush back against reliance upon subscription-based and more “locked-down” tools\nShow students how to build their portfolio and skill set without incurring additional financial burden\nMake sure that college education does not rely upon the solvency of software businesses and startups\n\n\nImportant: This is **not** an attempt to insist upon **only** using open-source software"
+  },
+  {
+    "objectID": "presentation/presentation.html#sec-basic-software-terms",
+    "href": "presentation/presentation.html#sec-basic-software-terms",
+    "title": "When and How to Introduce Students to Free and Open-Source Software",
+    "section": "2.1 Basic Software Terms",
+    "text": "2.1 Basic Software Terms\n\nEnd User: A person who uses a certain piece of software for personal or business use, i.e., You and I\nLicense: some document or text shared with software, written by the creator, that dictates how a certain software, and its source code, can or cannot be used, modified, and shared\n\nWhen used correctly, this is legally binding and ignoring licensee terms can be grounds for lawsuits\nE.g., MIT License, CC, specific licenses written for proprietary software\n\nEnd User License Agreement (EULA): An agreement signed by a user of a specific software that recognizes and agrees to the software license terms, and the penalties associated with violating the license\n\nI.e., the long set of documents and text we agree to when we sign up for a new service\n\nSource code: the actual code that underlies a certain software or program\n\nThis is not necessarily the files that “ship” with the software\nThis is used to build and modify the program"
+  },
+  {
+    "objectID": "presentation/presentation.html#sec-terms-of-ownership-and-use",
+    "href": "presentation/presentation.html#sec-terms-of-ownership-and-use",
+    "title": "When and How to Introduce Students to Free and Open-Source Software",
+    "section": "2.2 Terms of Ownership and Use",
+    "text": "2.2 Terms of Ownership and Use\n\nNon-free: Software that is priced and/or restricted with limited access to source code. Contrary to the name, it does not necessarily have a cost to use\n\nProprietary: A type of non-free software; Something that is owned by an entity via copyright and intellectual property laws, and users are not allowed to make limitless modification to the program or share without authorization\n\nE.g., Microsoft 365 (Word, Powerpoint, etc.) - owned by Microsoft, cannot be modified or shared without permission from copyright holder\n\nSoftware as a Service (SaaS): Proprietary, non-free software priced as a continuous ongoing subscription model, rather than charging a one-time access fee\n\nE.g., Adobe Creative Cloud, Anything that says: “Contact our Sales Team”\n\n\nFree and open source (FOSS): Software that is intentionally not priced and able to be adopted, modified, shared, and used without cost - and only some restrictions per the specific license of the software\n\nThe “open source” part of this, refers to the source code being open and available, i.e., not hidden from the public\nA subtype of this is Free, libre, and open source (FLOSS) or copyleft, which focuses on prohibiting the use of the software to create non-free software\n\nFor the purpose of this presentation, I’ll be prioritizing talking about options for using and embracing FOSS software\n\nImportant: There's a lot of different ways to describe software price models, so be discerning when looking at options!"
+  },
+  {
+    "objectID": "presentation/presentation.html#sec-benefits",
+    "href": "presentation/presentation.html#sec-benefits",
+    "title": "When and How to Introduce Students to Free and Open-Source Software",
+    "section": "4.1 Benefits",
+    "text": "4.1 Benefits"
+  },
+  {
+    "objectID": "presentation/presentation.html#sec-drawbacks",
+    "href": "presentation/presentation.html#sec-drawbacks",
+    "title": "When and How to Introduce Students to Free and Open-Source Software",
+    "section": "4.2 Drawbacks",
+    "text": "4.2 Drawbacks\nImportant: Introducing open-source tools brings benefits and drawbacks, but the good outweighs the bad!"
+  },
+  {
+    "objectID": "presentation/presentation.html#sec-recap",
+    "href": "presentation/presentation.html#sec-recap",
+    "title": "When and How to Introduce Students to Free and Open-Source Software",
+    "section": "6.1 Recap",
+    "text": "6.1 Recap\n\nThere are many reasons we should be conscious around what software we use and the growing cost and reliance\nFOSS software can, and sometimes should, be considered as an alternative when training students for practical work\nExposure and experience is key: we don’t necessarily need to persuade students of a certain method of using software, so much as we should help them explore their options"
+  },
+  {
+    "objectID": "presentation/presentation.html#sec-parting-msg",
+    "href": "presentation/presentation.html#sec-parting-msg",
+    "title": "When and How to Introduce Students to Free and Open-Source Software",
+    "section": "6.2 Parting Message",
+    "text": "6.2 Parting Message\n\nContinue using the resources, links, and References provided throughout this presentation to explore the complexity around adopting more open-source software\nIf you are an instructor: consider trialing an adoption of open-source tools, like one of my Examples of Integration, in your classrooms\nIf you are administrative or support staff, make sure that instructors are aware of alternative options to the most popular tools. IT may even be able to help organize hosting of certain desired tools by faculty\nEncourage students to engage fruitfully with technology not purely as a means-to-an-end, but as a conscious choice"
   },
   {
     "objectID": "presentation/presentation.html#sec-refs",
     "href": "presentation/presentation.html#sec-refs",
     "title": "When and How to Introduce Students to Free and Open-Source Software",
-    "section": "5.1 References",
-    "text": "5.1 References\n\n\nAllaire, J., & Dervieux, C. (2025). Quarto: R interface to quarto markdown publishing system. https://github.com/quarto-dev/quarto-r\n\n\nR Core Team. (2025). R: A language and environment for statistical computing. R Foundation for Statistical Computing. https://www.R-project.org/\n\n\nXie, Y. (2014). Knitr: A comprehensive tool for reproducible research in R. In V. Stodden, F. Leisch, & R. D. Peng (Eds.), Implementing reproducible computational research. Chapman; Hall/CRC.\n\n\nXie, Y. (2015). Dynamic documents with R and knitr (2nd ed.). Chapman; Hall/CRC. https://yihui.org/knitr/\n\n\nXie, Y. (2025). Knitr: A general-purpose package for dynamic report generation in r. https://yihui.org/knitr/\n\n\n\n\n\n\n\n\n\n \n\n\nWhen and How to Introduce Students to Free and Open-Source Software"
+    "section": "6.3 References",
+    "text": "6.3 References\n\n\nAllaire, J., & Dervieux, C. (2025). Quarto: R interface to quarto markdown publishing system. https://github.com/quarto-dev/quarto-r\n\n\nR Core Team. (2025). R: A language and environment for statistical computing. R Foundation for Statistical Computing. https://www.R-project.org/\n\n\nXie, Y. (2014). Knitr: A comprehensive tool for reproducible research in R. In V. Stodden, F. Leisch, & R. D. Peng (Eds.), Implementing reproducible computational research. Chapman; Hall/CRC.\n\n\nXie, Y. (2015). Dynamic documents with R and knitr (2nd ed.). Chapman; Hall/CRC. https://yihui.org/knitr/\n\n\nXie, Y. (2025). Knitr: A general-purpose package for dynamic report generation in r. https://yihui.org/knitr/\n\n\n\n\n\n\n\n\n\n \n\n\nWhen and How to Introduce Students to Free and Open-Source Software"
   }
 ]
