@@ -52,7 +52,7 @@ fi
 
 ## Follow Along {#sec-follow-along}
 
-- See the link to presentation handout on Tech Summit Website!:[www4.gvsu.edu/gvtechsummit]
+- See the link to presentation handout on Tech Summit Website!: [www4.gvsu.edu/gvtechsummit](www4.gvsu.edu/gvtechsummit)
 
 ## Disclosures and Disclaimers {#sec-disclosures}
 
