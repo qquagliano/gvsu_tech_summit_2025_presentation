@@ -52,7 +52,7 @@ fi
 
 ## Follow Along {#sec-follow-along}
 
-- See the link to presentation handout on Tech Summit Website! <www4.gvsu.edu/gvtechsummit>
+- See the link to presentation handout on Tech Summit Website!:[www4.gvsu.edu/gvtechsummit]
 
 ## Disclosures and Disclaimers {#sec-disclosures}
 
@@ -74,14 +74,14 @@ Pricing])
 alternatives into instruction (Section: [Advantages and Challenges])
 
 - Consider the ways in which exposure to different tools and methods produces
-more technology-literate students (Section: [])
+more technology-literate students (Section: [Connection to Tech Literacy])
 
 - Learn about some methods to bring more diverse software to students (Section:
 [Examples of Integration])
 
 ## Motivation {#sec-motivation}
 
-- The four "Evil" Es of software
+- The four (hyperbolic) "Evil" Es of software
   - Software is everywhere - it's always all around us
   - Software is essential - it's a common requirement of navigating the world
   - Software is elaborate - but it doesn't look it!
@@ -92,24 +92,29 @@ and not feel lost
 
 ## Purpose {#sec-purpose}
 
-- Following the liberal arts mission of creating well-(tech)-rounded students
-  - Exposing students to more alternative tools
-  - Seeing the similarities, differences, and quirks of each tool
-  - When they encounter new software they can adapt easier
+- Follow the liberal arts mission of creating well-(tech)-rounded students
+  - Expose students to more alternative tools
+  - Help students see the similarities, differences, and quirks of each tool
+  - Ensure that when students encounter new software they can adapt easier
 
-- Supporting projects and software that are free in a time of increasing prices
+- Support projects and software that are free in a time of increasing prices
   - Push back against reliance upon subscription-based tools
   - Show students how to build their portfolio and skill set without incurring
   additional financial burden
 
--
+- This is **not** an attempt to insist upon **only** using open-source software
 
 # Vocabulary of Software Availability and Pricing {#sec-avail}
 
 {{< important "There's a lot of different ways to describe software price models,
-be discerning when looking at options!" >}}
+so be discerning when looking at options!" >}}
 
 # Examples of Integration {#sec-examples-of-integration}
+
+{{< important "There are several routes to integration of open-source tools, but
+all focus on flexibility and agency!" >}}
+
+# Connection to Tech Literacy {#sec-conn-tech-lit}
 
 {{< important "There are several routes to integration of open-source tools, but
 all focus on flexibility and agency!" >}}
