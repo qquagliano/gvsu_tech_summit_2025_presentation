@@ -1,8 +1,0 @@
-Flake checker results:
-
-The flake checker scanned your flake.lock and didn't identify any issues. All
-Nixpkgs inputs:
-
-> Use supported branches
-> Are less than 30 days old
-> Use upstream Nixpkgs
